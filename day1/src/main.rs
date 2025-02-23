@@ -1,7 +1,6 @@
 use std::env;
 use std::fs;
-use std::num;
-use std::io::{Write, BufReader, BufRead, Error};
+use std::io::{Error};
 
 fn main() -> Result<(), Error> {
     let args: Vec<String> = env::args().collect();

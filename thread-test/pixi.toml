@@ -1,0 +1,13 @@
+[project]
+authors = ["lanyusea <lanyusea@gmail.com>"]
+channels = ["conda-forge"]
+name = "thread-test"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+build = "cargo build"
+run = "cargo run"
+
+[dependencies]
+rust = ">=1.84.0,<1.85"
